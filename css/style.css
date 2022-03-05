@@ -185,8 +185,14 @@ html p a:hover {
 	opacity: 1;
 }
 
-html.boxed body {
-	background: #edeff4 url(../images/bg-pattern-boxed.png) repeat fixed;
+html body {
+	background: white url(../images/logo-bg.png) no-repeat fixed center ;
+	background-size:contain;
+}
+
+.product-img{
+	max-width: 400px;
+	max-height: 300px;
 }
 
 @media (min-width: 1630px) {
@@ -2483,7 +2489,11 @@ img {
 }
 
 .icon-default {
-	color: #A5AAD3;
+	color: white;
+}
+
+.icon-green {
+	color: #3EB489;
 }
 
 .icon-circle {
