@@ -9861,6 +9861,15 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	padding: 6px;
 }
 
+.black-font{
+	color: black !important;
+}
+
+.our-team{
+	max-width: 250px;
+	max-height: 270px;
+}
+
 #more1 {display: none;}
 #more2 {display: none;}
 #more3{display: none;}
